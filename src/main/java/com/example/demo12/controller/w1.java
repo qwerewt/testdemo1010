@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version: 1.0
  */
 @RestController
+@CrossOrigin
 public class w1 {
     @GetMapping("/hello")
     public String hello(){
