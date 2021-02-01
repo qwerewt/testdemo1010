@@ -11,9 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version: 1.0
  */
 @RestController
-@RequestMapping("/hello")
 public class w1 {
-    @GetMapping("/world")
+    @GetMapping("/hello")
     public String hello(){
         return "hello";
     }
